@@ -1,0 +1,186 @@
+[
+    {
+        "label": "General",
+        "cols": "12",
+        "fieldsGroups": [
+            {
+                "cols": "4",
+                "fields": [
+                    {
+                        "label": "Case Management",
+                        "name": "case_management",
+                        "type": "switch",
+                        "value": true
+                    }
+                ]
+            },
+            {
+                "cols": "4",
+                "fields": [
+                    {
+                        "label": "Map Timeline",
+                        "name": "map_timeline",
+                        "type": "switch",
+                        "value": true
+                    }
+                ]
+            },
+            {
+                "cols": "4",
+                "fields": [
+                    {
+                        "label": "Views & Briefings",
+                        "name": "views_briefings",
+                        "type": "switch",
+                        "value": true
+                    }
+                ]
+            },
+            {
+                "cols": "4",
+                "fields": [
+                    {
+                        "label": "Notifications",
+                        "name": "notifications",
+                        "type": "switch",
+                        "value": true
+                    }
+                ]
+            },
+            {
+                "cols": "4",
+                "fields": [
+                    {
+                        "label": "Mass Communications",
+                        "name": "mass_communications",
+                        "type": "switch",
+                        "value": false
+                    }
+                ]
+            },
+            {
+                "cols": "4",
+                "fields": [
+                    {
+                        "label": "Traffic Cameras",
+                        "name": "traffic_cameras",
+                        "type": "switch",
+                        "value": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Settings",
+        "cols": "4",
+        "fieldsGroups": [
+            {
+                "cols": "12",
+                "fields": [
+                    {
+                        "label": "Audit Log",
+                        "name": "audit_log",
+                        "type": "switch",
+                        "value": true
+                    },
+                    {
+                        "label": "Users",
+                        "name": "users",
+                        "type": "switch",
+                        "value": false,
+                        "subfields": [
+                            {
+                                "label": "Users Add",
+                                "name": "users_users_add",
+                                "type": "switch",
+                                "value": false
+                            },
+                            {
+                                "label": "User Delete",
+                                "name": "users_user_delete",
+                                "type": "switch",
+                                "value": false
+                            },
+                            {
+                                "label": "Users Edit",
+                                "name": "users_users_Edit",
+                                "type": "switch",
+                                "value": false
+                            },
+                            {
+                                "label": "Max Users",
+                                "name": "users_max_users",
+                                "type": "switch",
+                                "value": false,
+                                "fields": [
+                                    {
+                                        "label": "",
+                                        "name": "alert_rules_count",
+                                        "type": "select",
+                                        "value": "1",
+                                        "options": [
+                                            { "label": "1", "value": "1" },
+                                            { "label": "2", "value": "2" },
+                                            { "label": "3", "value": "3" },
+                                            { "label": "4", "value": "4" },
+                                            { "label": "5", "value": "5" },
+                                            { "label": "6", "value": "6" },
+                                            { "label": "7", "value": "7" },
+                                            { "label": "8", "value": "8" },
+                                            { "label": "9", "value": "9" },
+                                            { "label": "10", "value": "10" }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Alerts",
+        "cols": "4",
+        "fieldsGroups": [
+            {
+                "cols": "12",
+                "fields": [
+                    {
+                        "label": "Alert Manager",
+                        "name": "alert_manager",
+                        "type": "switch",
+                        "value": true
+                    },
+                    {
+                        "label": "Alert Rules",
+                        "name": "alert_rules",
+                        "type": "switch",
+                        "value": true,
+                        "fields": [
+                            {
+                                "label": "",
+                                "name": "alert_rules_count",
+                                "type": "select",
+                                "value": "1",
+                                "options": [
+                                    { "label": "1", "value": "1" },
+                                    { "label": "2", "value": "2" },
+                                    { "label": "3", "value": "3" },
+                                    { "label": "4", "value": "4" },
+                                    { "label": "5", "value": "5" },
+                                    { "label": "6", "value": "6" },
+                                    { "label": "7", "value": "7" },
+                                    { "label": "8", "value": "8" },
+                                    { "label": "9", "value": "9" },
+                                    { "label": "10", "value": "10" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

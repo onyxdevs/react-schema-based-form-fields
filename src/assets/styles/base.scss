@@ -1,0 +1,41 @@
+@import './variables';
+@import './bootstrap/index';
+
+html {
+    background-color: $bg-color;
+    font-size: 16px;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: rgba(lighten($font-dark-color, 4%), 0.5);
+    font-size: 0.875rem;
+    background-color: transparent;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 5rem 0;
+}
+
+form > .row {
+    --bs-gutter-y: 3rem;
+}
+
+form > .row .row {
+    --bs-gutter-y: 1.5rem;
+}
+
+.text-center {
+    text-align: center;
+}

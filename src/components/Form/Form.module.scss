@@ -1,0 +1,95 @@
+@import 'assets/styles/variables';
+
+.form {
+    width: 100%;
+
+    &__section-label {
+        font-weight: 700;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.025rem;
+        color: $font-dark-color;
+        margin-bottom: 0.75rem;
+    }
+
+    &__fields-group {
+        background-color: white;
+        border: 1px solid rgba($font-dark-color, 0.1);
+        border-radius: $border-radius;
+        padding: 0.75rem 1.5rem;
+    }
+
+    &__section-field {
+        display: flex;
+        flex-direction: column;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 0;
+            height: 54px;
+        }
+
+        &__additional {
+            margin-right: 1.25rem;
+        }
+
+        &__subfields-trigger {
+            position: relative;
+            background-color: transparent;
+            padding: 0;
+            border: none;
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+            margin-right: -0.25rem;
+            transition: transform 0.3s ease-in-out;
+
+            &--active {
+                transform: rotate(180deg);
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                width: 1rem;
+                height: 1rem;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%); // Because the icon has some padding inside it!
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M18 9.7l-1.4-1.4-4.6 4.6-4.6-4.6L6 9.7l6 6 6-6z'/%3E%3C/svg%3E");
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                pointer-events: none;
+            }
+        }
+
+        &__subfields {
+            width: 100%;
+            margin-bottom: 0.5rem;
+
+            & > div {
+                padding: 0.125rem 1rem;
+
+                &:not(:last-child) {
+                    margin-bottom: 0.75rem;
+                }
+            }
+        }
+        &__subfields &__content {
+            padding: 0.125rem 0;
+            height: auto;
+        }
+    }
+
+    &__label {
+        flex-grow: 1;
+        font-weight: 500;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.0125rem;
+        color: $font-dark-color;
+        margin-right: auto;
+    }
+}
