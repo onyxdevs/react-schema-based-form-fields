@@ -1,10 +1,10 @@
 [
     {
         "label": "General",
-        "cols": "12",
+        "cols": 12,
         "fieldsGroups": [
             {
-                "cols": "4",
+                "cols": 4,
                 "fields": [
                     {
                         "label": "Case Management",
@@ -15,7 +15,7 @@
                 ]
             },
             {
-                "cols": "4",
+                "cols": 4,
                 "fields": [
                     {
                         "label": "Map Timeline",
@@ -26,7 +26,7 @@
                 ]
             },
             {
-                "cols": "4",
+                "cols": 4,
                 "fields": [
                     {
                         "label": "Views & Briefings",
@@ -37,7 +37,7 @@
                 ]
             },
             {
-                "cols": "4",
+                "cols": 4,
                 "fields": [
                     {
                         "label": "Notifications",
@@ -48,7 +48,7 @@
                 ]
             },
             {
-                "cols": "4",
+                "cols": 4,
                 "fields": [
                     {
                         "label": "Mass Communications",
@@ -59,7 +59,7 @@
                 ]
             },
             {
-                "cols": "4",
+                "cols": 4,
                 "fields": [
                     {
                         "label": "Traffic Cameras",
@@ -73,10 +73,10 @@
     },
     {
         "label": "Settings",
-        "cols": "4",
+        "cols": 4,
         "fieldsGroups": [
             {
-                "cols": "12",
+                "cols": 12,
                 "fields": [
                     {
                         "label": "Audit Log",
@@ -142,10 +142,10 @@
     },
     {
         "label": "Alerts",
-        "cols": "4",
+        "cols": 4,
         "fieldsGroups": [
             {
-                "cols": "12",
+                "cols": 12,
                 "fields": [
                     {
                         "label": "Alert Manager",
